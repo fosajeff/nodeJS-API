@@ -2,7 +2,9 @@ const express = require("express");
 const mongoose = require("mongoose")
 const authRoutes = require("./routes/auth")
 const app = express();
-const { HOST, PORT, DB_URL } = require("./config")
+const { HOST, DB_URL } = require("./config")
+
+const PORT = process.env || 5000
 
 // Body Parser Middleware
 app.use(express.json())
