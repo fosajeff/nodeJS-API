@@ -1,3 +1,1 @@
-### Application Programming Interface with NodeJS
-
-Employs the use of ExpressJS and mongoose
+### REST API with nodejs, express and mongoose
